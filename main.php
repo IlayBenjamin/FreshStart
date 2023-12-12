@@ -1,9 +1,13 @@
 <?php
 
-    $m = new Message("Version 3.2 Released");
+    $m = new Message("Version 4.0 Released");
     print($m->getMessage());
 
-    MessageUtilites::PRINT_EXAMPLE_MESSAGE3();
-    MessageUtilites::PRINT_EXAMPLE_MESSAGE2();
-    MessageUtilites::PRINT_EXAMPLE_MESSAGE1();
+    $messages = [
+        MessageUtilites::$HELLO_WORLD_MESSAGE_CONTENT,
+        MessageUtilites::$HEY_MESSAGE_CONTENT,
+        MessageUtilites::$BYE_MESSAGE_CONTENT
+    ];
+
+    MessageUtilites::PRINT_ALL($messages);
 ?>

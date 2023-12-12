@@ -21,7 +21,13 @@
             print MessageUtilites::$BYE_MESSAGE_CONTENT;
         }
 
+        static function PRINT_ALL(Array $list) {
+            foreach($list as $key => $value) {
+                print $value;
+            }
+        }
+     
+        
     }
-
 
 ?>
