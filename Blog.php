@@ -6,7 +6,7 @@
     private String $bio;
 
     public function __construct(String $ownerName, String $bio) {
-      $this->blobContent = new array();
+      $this->blobContent = array();
       $this->owner = $ownerName;
       $this->bio = $bio;
     }
