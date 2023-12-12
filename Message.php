@@ -1,4 +1,7 @@
+
 <?php
+
+    include("MessageUtils.php");
 
     class Message {
         private $content;
