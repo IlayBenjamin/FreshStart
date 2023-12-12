@@ -1,6 +1,6 @@
 <?php
 
-    $m = new Message("Version 3.0 Released");
+    $m = new Message("Version 3.2 Released");
     print($m->getMessage());
 
     MessageUtilites::PRINT_EXAMPLE_MESSAGE3();
