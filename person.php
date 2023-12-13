@@ -21,7 +21,9 @@
         public function setCountry($country) {
             $this->country = $country;
         }
-
+        public function getDetails() {
+            return ["name"=>getName() , "country"=>getCountry()];
+        }
     }
 
 
