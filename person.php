@@ -14,7 +14,14 @@
         public function getCountry() {
             return $this->country;
         }
-        
+
+        public function setName($name) {
+            $this->name = $name;
+        }
+        public function setCountry($country) {
+            $this->country = $country;
+        }
+
     }
 
 
